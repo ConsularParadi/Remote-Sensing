@@ -1,0 +1,174 @@
+{
+    "id": "nasa_rwanda_field_boundary_competition_labels_train_37",
+    "type": "Feature",
+    "stac_version": "1.0.0",
+    "collection": "nasa_rwanda_field_boundary_competition_labels_train",
+    "links": [
+        {
+            "rel": "collection",
+            "href": "../collection.json"
+        },
+        {
+            "rel": "root",
+            "href": "../../catalog.json"
+        },
+        {
+            "rel": "parent",
+            "href": "../collection.json"
+        },
+        {
+            "rel": "self",
+            "href": "nasa_rwanda_field_boundary_competition_labels_train_37.json"
+        },
+        {
+            "rel": "source",
+            "href": "../../nasa_rwanda_field_boundary_competition_source_train/nasa_rwanda_field_boundary_competition_source_train_37_2021_10/nasa_rwanda_field_boundary_competition_source_train_37_2021_10.json"
+        },
+        {
+            "rel": "source",
+            "href": "../../nasa_rwanda_field_boundary_competition_source_train/nasa_rwanda_field_boundary_competition_source_train_37_2021_11/nasa_rwanda_field_boundary_competition_source_train_37_2021_11.json"
+        },
+        {
+            "rel": "source",
+            "href": "../../nasa_rwanda_field_boundary_competition_source_train/nasa_rwanda_field_boundary_competition_source_train_37_2021_04/nasa_rwanda_field_boundary_competition_source_train_37_2021_04.json"
+        },
+        {
+            "rel": "source",
+            "href": "../../nasa_rwanda_field_boundary_competition_source_train/nasa_rwanda_field_boundary_competition_source_train_37_2021_03/nasa_rwanda_field_boundary_competition_source_train_37_2021_03.json"
+        },
+        {
+            "rel": "source",
+            "href": "../../nasa_rwanda_field_boundary_competition_source_train/nasa_rwanda_field_boundary_competition_source_train_37_2021_12/nasa_rwanda_field_boundary_competition_source_train_37_2021_12.json"
+        },
+        {
+            "rel": "source",
+            "href": "../../nasa_rwanda_field_boundary_competition_source_train/nasa_rwanda_field_boundary_competition_source_train_37_2021_08/nasa_rwanda_field_boundary_competition_source_train_37_2021_08.json"
+        }
+    ],
+    "properties": {
+        "datetime": null,
+        "start_datetime": "2021-03-01T00:00:00Z",
+        "end_datetime": "2021-12-31T23:59:59Z",
+        "label:properties": null,
+        "label:classes": [
+            {
+                "name": null,
+                "classes": [
+                    0,
+                    1
+                ]
+            }
+        ],
+        "label:description": "Field Boundary Segmentation Raster",
+        "label:type": "raster",
+        "label:tasks": [
+            "segmentation"
+        ],
+        "label:methods": [
+            "manual"
+        ],
+        "proj:epsg": 3857,
+        "proj:geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        3385515.415143201,
+                        -161071.92782530733
+                    ],
+                    [
+                        3385515.415143201,
+                        -159848.93537291436
+                    ],
+                    [
+                        3384292.4226908083,
+                        -159848.93537291436
+                    ],
+                    [
+                        3384292.4226908083,
+                        -161071.92782530733
+                    ],
+                    [
+                        3385515.415143201,
+                        -161071.92782530733
+                    ]
+                ]
+            ]
+        }
+    },
+    "assets": {
+        "raster_labels": {
+            "href": "https://radiantearth.blob.core.windows.net/mlhub/nasa_rwanda_field_boundary_competition/labels/train/37.tif",
+            "roles": [
+                "labels",
+                "labels-raster"
+            ],
+            "storage:platform": "AZURE",
+            "storage:region": "westeurope",
+            "storage:requester_pays": false,
+            "storage:tier": "hot",
+            "classification:classes": [
+                {
+                    "value": 0,
+                    "name": "no_data",
+                    "color_hint": "000000",
+                    "description": "Represents pixels which are either not part of the field boundary or no data collected"
+                },
+                {
+                    "value": 1,
+                    "name": "field_boundary",
+                    "color_hint": "ffffff",
+                    "description": "Represents pixels which fall on the agricultural field boundary"
+                }
+            ],
+            "raster:bands": [
+                {
+                    "nodata": "nan",
+                    "data_type": "uint8",
+                    "spatial_resolution": 4.77731426716
+                }
+            ],
+            "type": "image/tiff; application=geotiff"
+        }
+    },
+    "stac_extensions": [
+        "https://stac-extensions.github.io/classification/v1.1.0/schema.json",
+        "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
+        "https://stac-extensions.github.io/raster/v1.1.0/schema.json",
+        "https://stac-extensions.github.io/storage/v1.0.0/schema.json",
+        "https://stac-extensions.github.io/label/v1.0.1/schema.json"
+    ],
+    "bbox": [
+        30.40161609233037,
+        -1.4467799730458022,
+        30.41260242045384,
+        -1.4357971207511375
+    ],
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    30.41260242045384,
+                    -1.4467799730458022
+                ],
+                [
+                    30.41260242045384,
+                    -1.4357971207511375
+                ],
+                [
+                    30.40161609233037,
+                    -1.4357971207511375
+                ],
+                [
+                    30.40161609233037,
+                    -1.4467799730458022
+                ],
+                [
+                    30.41260242045384,
+                    -1.4467799730458022
+                ]
+            ]
+        ]
+    }
+}

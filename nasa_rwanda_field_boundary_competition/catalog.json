@@ -1,0 +1,75 @@
+{
+    "id": "nasa_rwanda_field_boundary_competition",
+    "stac_version": "1.0.0",
+    "description": "Rwanda Field Boundary Competition Dataset",
+    "links": [
+        {
+            "rel": "self",
+            "href": "catalog.json"
+        },
+        {
+            "rel": "child",
+            "href": "nasa_rwanda_field_boundary_competition_labels_train/collection.json"
+        },
+        {
+            "rel": "child",
+            "href": "nasa_rwanda_field_boundary_competition_source_train/collection.json"
+        },
+        {
+            "rel": "child",
+            "href": "nasa_rwanda_field_boundary_competition_source_test/collection.json"
+        },
+        {
+            "rel": "root",
+            "href": "catalog.json"
+        }
+    ],
+    "type": "Catalog",
+    "stac_extensions": [
+        "https://raw.githubusercontent.com/radiantearth/mlhub-dataset/main/json-schema/schema.json"
+    ],
+    "created": "2022-11-14T16:01:16Z",
+    "updated": "2022-12-16T04:21:00Z",
+    "mlhub:creator_contact": {
+        "contact": "ml@radiant.earth",
+        "creator": "[NASA Harvest](https://nasaharvest.org/)"
+    },
+    "keywords": [
+        "segmentation",
+        "field boundary",
+        "planetscope",
+        "agriculture"
+    ],
+    "mlhub:science_keywords": [
+        {
+            "name": "RASTER LABELS",
+            "uuid": "381a3ad7-64e9-464e-b5aa-c9ce0520546c"
+        },
+        {
+            "name": "RASTER SOURCE",
+            "uuid": "83eb2a9c-5f56-4512-94c1-acd084a5bf9d"
+        },
+        {
+            "name": "CLASSIFICATION",
+            "uuid": "ca240508-9cd7-400e-9420-ad96f72195bd"
+        },
+        {
+            "name": "SUPERVISED",
+            "uuid": "fdd890fa-377a-46ce-8fdc-2d7d16a461b7"
+        },
+        {
+            "name": "SEGMENTATION",
+            "uuid": "46b21df4-0467-48eb-b442-709b584ad816"
+        },
+        {
+            "name": "LAND USE/LAND COVER CLASSIFICATION",
+            "uuid": "75c312bc-79f9-4d74-a7c0-3c67c019196c"
+        }
+    ],
+    "mlhub:location_keywords": [
+        {
+            "name": "RWANDA",
+            "uuid": "4a86e5fb-6155-47c0-883b-2edb8e1257aa"
+        }
+    ]
+}
