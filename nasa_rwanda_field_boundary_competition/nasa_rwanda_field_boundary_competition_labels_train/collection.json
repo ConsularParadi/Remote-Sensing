@@ -1,0 +1,321 @@
+{
+    "id": "nasa_rwanda_field_boundary_competition_labels_train",
+    "description": "nasa_rwanda_field_boundary_competition Train Labels",
+    "license": "CC-BY-4.0",
+    "sci:doi": "10.34911/rdnt.g580ww",
+    "sci:citation": "NASA Harvest, Radiant Earth Foundation, & TaQadam. (2022). Rwanda Field Boundary Competition Dataset (Version 1.0) [Data set]. Radiant MLHub. https://doi.org/10.34911/RDNT.G580WW",
+    "type": "Collection",
+    "stac_extensions": [
+        "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
+    ],
+    "providers": [
+        {
+            "name": "Radiant Earth Foundation",
+            "roles": [
+                "processor",
+                "licensor"
+            ],
+            "url": "https://radiant.earth"
+        }
+    ],
+    "assets": {
+        "documentation": {
+            "href": "https://radiantearth.blob.core.windows.net/mlhub/nasa_rwanda_field_boundary_competition/Documentation.pdf",
+            "type": "application/pdf"
+        }
+    },
+    "stac_version": "1.0.0",
+    "extent": {
+        "temporal": {
+            "interval": [
+                [
+                    "2021-03-01T00:00:00Z",
+                    "2021-12-31T23:59:59Z"
+                ]
+            ]
+        },
+        "spatial": {
+            "bbox": [
+                [
+                    30.291881557128324,
+                    -1.5902813474773663,
+                    30.423545833233085,
+                    -1.3915648691319107
+                ]
+            ]
+        }
+    },
+    "links": [
+        {
+            "rel": "self",
+            "href": "collection.json"
+        },
+        {
+            "rel": "parent",
+            "href": "../catalog.json"
+        },
+        {
+            "rel": "root",
+            "href": "../catalog.json"
+        },
+        {
+            "rel": "license",
+            "href": "https://creativecommons.org/licenses/by/4.0/"
+        },
+        {
+            "rel": "item",
+            "href": "nasa_rwanda_field_boundary_competition_labels_train_00/nasa_rwanda_field_boundary_competition_labels_train_00.json"
+        },
+        {
+            "rel": "item",
+            "href": "nasa_rwanda_field_boundary_competition_labels_train_01/nasa_rwanda_field_boundary_competition_labels_train_01.json"
+        },
+        {
+            "rel": "item",
+            "href": "nasa_rwanda_field_boundary_competition_labels_train_02/nasa_rwanda_field_boundary_competition_labels_train_02.json"
+        },
+        {
+            "rel": "item",
+            "href": "nasa_rwanda_field_boundary_competition_labels_train_03/nasa_rwanda_field_boundary_competition_labels_train_03.json"
+        },
+        {
+            "rel": "item",
+            "href": "nasa_rwanda_field_boundary_competition_labels_train_04/nasa_rwanda_field_boundary_competition_labels_train_04.json"
+        },
+        {
+            "rel": "item",
+            "href": "nasa_rwanda_field_boundary_competition_labels_train_05/nasa_rwanda_field_boundary_competition_labels_train_05.json"
+        },
+        {
+            "rel": "item",
+            "href": "nasa_rwanda_field_boundary_competition_labels_train_06/nasa_rwanda_field_boundary_competition_labels_train_06.json"
+        },
+        {
+            "rel": "item",
+            "href": "nasa_rwanda_field_boundary_competition_labels_train_07/nasa_rwanda_field_boundary_competition_labels_train_07.json"
+        },
+        {
+            "rel": "item",
+            "href": "nasa_rwanda_field_boundary_competition_labels_train_08/nasa_rwanda_field_boundary_competition_labels_train_08.json"
+        },
+        {
+            "rel": "item",
+            "href": "nasa_rwanda_field_boundary_competition_labels_train_09/nasa_rwanda_field_boundary_competition_labels_train_09.json"
+        },
+        {
+            "rel": "item",
+            "href": "nasa_rwanda_field_boundary_competition_labels_train_10/nasa_rwanda_field_boundary_competition_labels_train_10.json"
+        },
+        {
+            "rel": "item",
+            "href": "nasa_rwanda_field_boundary_competition_labels_train_11/nasa_rwanda_field_boundary_competition_labels_train_11.json"
+        },
+        {
+            "rel": "item",
+            "href": "nasa_rwanda_field_boundary_competition_labels_train_12/nasa_rwanda_field_boundary_competition_labels_train_12.json"
+        },
+        {
+            "rel": "item",
+            "href": "nasa_rwanda_field_boundary_competition_labels_train_13/nasa_rwanda_field_boundary_competition_labels_train_13.json"
+        },
+        {
+            "rel": "item",
+            "href": "nasa_rwanda_field_boundary_competition_labels_train_14/nasa_rwanda_field_boundary_competition_labels_train_14.json"
+        },
+        {
+            "rel": "item",
+            "href": "nasa_rwanda_field_boundary_competition_labels_train_15/nasa_rwanda_field_boundary_competition_labels_train_15.json"
+        },
+        {
+            "rel": "item",
+            "href": "nasa_rwanda_field_boundary_competition_labels_train_16/nasa_rwanda_field_boundary_competition_labels_train_16.json"
+        },
+        {
+            "rel": "item",
+            "href": "nasa_rwanda_field_boundary_competition_labels_train_17/nasa_rwanda_field_boundary_competition_labels_train_17.json"
+        },
+        {
+            "rel": "item",
+            "href": "nasa_rwanda_field_boundary_competition_labels_train_18/nasa_rwanda_field_boundary_competition_labels_train_18.json"
+        },
+        {
+            "rel": "item",
+            "href": "nasa_rwanda_field_boundary_competition_labels_train_19/nasa_rwanda_field_boundary_competition_labels_train_19.json"
+        },
+        {
+            "rel": "item",
+            "href": "nasa_rwanda_field_boundary_competition_labels_train_20/nasa_rwanda_field_boundary_competition_labels_train_20.json"
+        },
+        {
+            "rel": "item",
+            "href": "nasa_rwanda_field_boundary_competition_labels_train_21/nasa_rwanda_field_boundary_competition_labels_train_21.json"
+        },
+        {
+            "rel": "item",
+            "href": "nasa_rwanda_field_boundary_competition_labels_train_22/nasa_rwanda_field_boundary_competition_labels_train_22.json"
+        },
+        {
+            "rel": "item",
+            "href": "nasa_rwanda_field_boundary_competition_labels_train_23/nasa_rwanda_field_boundary_competition_labels_train_23.json"
+        },
+        {
+            "rel": "item",
+            "href": "nasa_rwanda_field_boundary_competition_labels_train_24/nasa_rwanda_field_boundary_competition_labels_train_24.json"
+        },
+        {
+            "rel": "item",
+            "href": "nasa_rwanda_field_boundary_competition_labels_train_25/nasa_rwanda_field_boundary_competition_labels_train_25.json"
+        },
+        {
+            "rel": "item",
+            "href": "nasa_rwanda_field_boundary_competition_labels_train_26/nasa_rwanda_field_boundary_competition_labels_train_26.json"
+        },
+        {
+            "rel": "item",
+            "href": "nasa_rwanda_field_boundary_competition_labels_train_27/nasa_rwanda_field_boundary_competition_labels_train_27.json"
+        },
+        {
+            "rel": "item",
+            "href": "nasa_rwanda_field_boundary_competition_labels_train_28/nasa_rwanda_field_boundary_competition_labels_train_28.json"
+        },
+        {
+            "rel": "item",
+            "href": "nasa_rwanda_field_boundary_competition_labels_train_29/nasa_rwanda_field_boundary_competition_labels_train_29.json"
+        },
+        {
+            "rel": "item",
+            "href": "nasa_rwanda_field_boundary_competition_labels_train_30/nasa_rwanda_field_boundary_competition_labels_train_30.json"
+        },
+        {
+            "rel": "item",
+            "href": "nasa_rwanda_field_boundary_competition_labels_train_31/nasa_rwanda_field_boundary_competition_labels_train_31.json"
+        },
+        {
+            "rel": "item",
+            "href": "nasa_rwanda_field_boundary_competition_labels_train_32/nasa_rwanda_field_boundary_competition_labels_train_32.json"
+        },
+        {
+            "rel": "item",
+            "href": "nasa_rwanda_field_boundary_competition_labels_train_33/nasa_rwanda_field_boundary_competition_labels_train_33.json"
+        },
+        {
+            "rel": "item",
+            "href": "nasa_rwanda_field_boundary_competition_labels_train_34/nasa_rwanda_field_boundary_competition_labels_train_34.json"
+        },
+        {
+            "rel": "item",
+            "href": "nasa_rwanda_field_boundary_competition_labels_train_35/nasa_rwanda_field_boundary_competition_labels_train_35.json"
+        },
+        {
+            "rel": "item",
+            "href": "nasa_rwanda_field_boundary_competition_labels_train_36/nasa_rwanda_field_boundary_competition_labels_train_36.json"
+        },
+        {
+            "rel": "item",
+            "href": "nasa_rwanda_field_boundary_competition_labels_train_37/nasa_rwanda_field_boundary_competition_labels_train_37.json"
+        },
+        {
+            "rel": "item",
+            "href": "nasa_rwanda_field_boundary_competition_labels_train_38/nasa_rwanda_field_boundary_competition_labels_train_38.json"
+        },
+        {
+            "rel": "item",
+            "href": "nasa_rwanda_field_boundary_competition_labels_train_39/nasa_rwanda_field_boundary_competition_labels_train_39.json"
+        },
+        {
+            "rel": "item",
+            "href": "nasa_rwanda_field_boundary_competition_labels_train_40/nasa_rwanda_field_boundary_competition_labels_train_40.json"
+        },
+        {
+            "rel": "item",
+            "href": "nasa_rwanda_field_boundary_competition_labels_train_41/nasa_rwanda_field_boundary_competition_labels_train_41.json"
+        },
+        {
+            "rel": "item",
+            "href": "nasa_rwanda_field_boundary_competition_labels_train_42/nasa_rwanda_field_boundary_competition_labels_train_42.json"
+        },
+        {
+            "rel": "item",
+            "href": "nasa_rwanda_field_boundary_competition_labels_train_43/nasa_rwanda_field_boundary_competition_labels_train_43.json"
+        },
+        {
+            "rel": "item",
+            "href": "nasa_rwanda_field_boundary_competition_labels_train_44/nasa_rwanda_field_boundary_competition_labels_train_44.json"
+        },
+        {
+            "rel": "item",
+            "href": "nasa_rwanda_field_boundary_competition_labels_train_45/nasa_rwanda_field_boundary_competition_labels_train_45.json"
+        },
+        {
+            "rel": "item",
+            "href": "nasa_rwanda_field_boundary_competition_labels_train_46/nasa_rwanda_field_boundary_competition_labels_train_46.json"
+        },
+        {
+            "rel": "item",
+            "href": "nasa_rwanda_field_boundary_competition_labels_train_47/nasa_rwanda_field_boundary_competition_labels_train_47.json"
+        },
+        {
+            "rel": "item",
+            "href": "nasa_rwanda_field_boundary_competition_labels_train_48/nasa_rwanda_field_boundary_competition_labels_train_48.json"
+        },
+        {
+            "rel": "item",
+            "href": "nasa_rwanda_field_boundary_competition_labels_train_49/nasa_rwanda_field_boundary_competition_labels_train_49.json"
+        },
+        {
+            "rel": "item",
+            "href": "nasa_rwanda_field_boundary_competition_labels_train_50/nasa_rwanda_field_boundary_competition_labels_train_50.json"
+        },
+        {
+            "rel": "item",
+            "href": "nasa_rwanda_field_boundary_competition_labels_train_51/nasa_rwanda_field_boundary_competition_labels_train_51.json"
+        },
+        {
+            "rel": "item",
+            "href": "nasa_rwanda_field_boundary_competition_labels_train_52/nasa_rwanda_field_boundary_competition_labels_train_52.json"
+        },
+        {
+            "rel": "item",
+            "href": "nasa_rwanda_field_boundary_competition_labels_train_53/nasa_rwanda_field_boundary_competition_labels_train_53.json"
+        },
+        {
+            "rel": "item",
+            "href": "nasa_rwanda_field_boundary_competition_labels_train_54/nasa_rwanda_field_boundary_competition_labels_train_54.json"
+        },
+        {
+            "rel": "item",
+            "href": "nasa_rwanda_field_boundary_competition_labels_train_55/nasa_rwanda_field_boundary_competition_labels_train_55.json"
+        },
+        {
+            "rel": "item",
+            "href": "nasa_rwanda_field_boundary_competition_labels_train_56/nasa_rwanda_field_boundary_competition_labels_train_56.json"
+        },
+        {
+            "rel": "cite-as",
+            "href": "https://doi.org/10.34911/rdnt.g580ww"
+        }
+    ],
+    "summaries": {
+        "label:classes": [
+            {
+                "name": null,
+                "classes": [
+                    0,
+                    1
+                ]
+            }
+        ],
+        "label:type": [
+            "raster"
+        ],
+        "label:tasks": [
+            "segmentation"
+        ],
+        "label:methods": [
+            "manual"
+        ],
+        "proj:epsg": [
+            3857
+        ]
+    }
+}
