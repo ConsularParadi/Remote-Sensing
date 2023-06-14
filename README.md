@@ -1,2 +1,1 @@
-# Nasa_HarvestFieldBoundaryDetection_Rwanda
-# Remote-Sensing
+# UNET Field Boundary Detection
